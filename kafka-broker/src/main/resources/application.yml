@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: LocalKafkaBroker
+  kafka:
+    bootstrap-servers: localhost:9092
+    properties:
+      auto.register.schemas: true
+      schema.registry.url: mock://mockurl

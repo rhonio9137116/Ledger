@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "PostingEventRequest",
+  "namespace": "com.example.ledger.avro",
+  "fields": [
+    {
+      "name": "postingId",
+      "type": "long"
+    },
+    {
+      "name": "userId",
+      "type": "long"
+    }
+  ]
+}

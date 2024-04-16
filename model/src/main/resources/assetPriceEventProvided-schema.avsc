@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "AssetPriceEventProvided",
+  "namespace": "com.example.ledger.avro",
+  "fields": [
+    {
+      "name": "assetId",
+      "type": "long"
+    },
+    {
+      "name": "assetName",
+      "type": "string"
+    },
+    {
+      "name": "unitPrice",
+      "type": "float"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "WalletBalanceEventProvided",
+  "namespace": "com.example.ledger.avro",
+  "fields": [
+    {
+      "name": "walletId",
+      "type": "long"
+    },
+    {
+      "name": "walletName",
+      "type": "string"
+    },
+    {
+      "name": "userId",
+      "type": "long"
+    },
+    {
+      "name": "balance",
+      "type": "double"
+    }
+  ]
+}
