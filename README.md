@@ -12,9 +12,9 @@ Password: <leave it empty>
 
 Access to Swagger URL. 
 Note:This is auto genreated by Swagger, as is for demo project I don't have enough time to properly document every restful API here
-
+```
 http://localhost:8080/swagger-ui/index.html
-
+```
 ### Reference Documentation
 
 You have to build a microservice called “Ledger” using the latest java and spring boot version.
@@ -73,7 +73,8 @@ The following guides illustrate how to run the application in local
 * Run the Ledger application: com/example/ledger/Ledger.java
 
 ### Database Tables
-![Entity Relation Diagram](ER-Diagram.png "Title")
+![Entity Relation Diagram](./ER-Diagram.PNG)
+
 
 ### Preload Data
 The application preload some data from src/main/resources/data.sql
